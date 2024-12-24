@@ -1,0 +1,17 @@
+.poster {
+  background-color: #EAEBED;
+  width: 119px;
+  height: 170px;
+  margin-right: 16px;
+}
+
+.empty {
+  display: flex;
+  color: #ACADB9;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/*# sourceMappingURL=Poster.module.css.map */

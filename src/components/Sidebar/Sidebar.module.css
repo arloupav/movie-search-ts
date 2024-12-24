@@ -1,0 +1,52 @@
+.sidebar {
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 80px;
+  background: #F2EBF9;
+}
+.sidebar .title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 36px;
+}
+.sidebar .title img {
+  display: block;
+  height: 32px;
+  width: 32px;
+}
+.sidebar .title h2 {
+  color: #9854F6;
+  font-family: Poppins, serif;
+  width: 135px;
+  align-self: stretch;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.48px;
+  height: 36px;
+}
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+.sidebar nav a {
+  padding: 10px;
+  width: 100%;
+  height: 42px;
+  line-height: 140%;
+}
+
+a.active {
+  font-weight: 700;
+  color: #9854F6;
+  background-color: #E5D5FA;
+  border-radius: 8px;
+}
+
+/*# sourceMappingURL=Sidebar.module.css.map */

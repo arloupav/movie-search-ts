@@ -1,0 +1,8 @@
+.pagination {
+  grid-column: span 2;
+  min-height: 200px;
+  background-color: inherit;
+  text-align: end;
+}
+
+/*# sourceMappingURL=Pagination.module.css.map */

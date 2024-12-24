@@ -1,0 +1,68 @@
+@import "../../../../variable";
+
+.cardContainer {
+  display: flex;
+  width: 482px;
+  height: 218px;
+  align-items: stretch;
+
+}
+
+.info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  h3 {
+    color: $purpleMain500;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  span {
+    color: $grey600;
+  }
+
+  > div {
+    display: flex;
+    align-items: center;
+
+    > :first-child {
+      margin-right: 4px;
+    }
+
+    > :last-child {
+      margin-left: 8px;
+    }
+  }
+
+  > :last-child {
+    margin-top: auto;
+  }
+
+  .bold {
+    font-weight: 600;
+    color: $black;
+  }
+
+
+}
+
+.goldStar {
+  fill:$gold;
+  stroke:$gold;
+}
+
+.greyStar {
+  fill: #D5D6DC;
+  stroke: #D5D6DC;
+  cursor: pointer;
+}
+
+.purpleStar {
+  fill: #9854F6;
+  stroke: #9854F6;
+  cursor: pointer;
+}
+

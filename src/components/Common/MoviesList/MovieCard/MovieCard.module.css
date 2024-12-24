@@ -1,0 +1,57 @@
+.cardContainer {
+  display: flex;
+  width: 482px;
+  height: 218px;
+  align-items: stretch;
+}
+
+.info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.info h3 {
+  color: #9854F6;
+  font-size: 20px;
+  font-weight: 600;
+}
+.info span {
+  color: #7B7C88;
+}
+.info > div {
+  display: flex;
+  align-items: center;
+}
+.info > div > :first-child {
+  margin-right: 4px;
+}
+.info > div > :last-child {
+  margin-left: 8px;
+}
+.info > :last-child {
+  margin-top: auto;
+}
+.info .bold {
+  font-weight: 600;
+  color: #000;
+}
+
+.goldStar {
+  fill: #FAB005;
+  stroke: #FAB005;
+}
+
+.greyStar {
+  fill: #D5D6DC;
+  stroke: #D5D6DC;
+  cursor: pointer;
+}
+
+.purpleStar {
+  fill: #9854F6;
+  stroke: #9854F6;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=MovieCard.module.css.map */
